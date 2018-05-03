@@ -96,7 +96,7 @@ contract("AuctionEngine", function(accounts) {
   });
 
 
-  it("should transfer the asset to the winner when auction is claimed", async function(){
+  it("should transfer the asset to the winner and tokens to the creator when auction is claimed", async function(){
       // allow engine to transfer the book
       await book.approve(engine.address, 0, {from: accounts[1]});
 
