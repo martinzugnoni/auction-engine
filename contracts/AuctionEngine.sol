@@ -5,8 +5,6 @@ import "./AddressUtils.sol";
 import "./ERC20.sol";
 import "./ERC721.sol";
 
-import "./MZToken.sol";
-
 
 contract AuctionEngine {
     using SafeMath for uint256;
